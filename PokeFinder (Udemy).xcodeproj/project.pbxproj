@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E3B73C81E402A9700B72613 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3B73C71E402A9700B72613 /* AppDelegate.swift */; };
+		1E3B73CA1E402A9700B72613 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3B73C91E402A9700B72613 /* ViewController.swift */; };
+		1E3B73CD1E402A9900B72613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3B73CB1E402A9900B72613 /* Main.storyboard */; };
+		1E3B73CF1E402A9A00B72613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E3B73CE1E402A9A00B72613 /* Assets.xcassets */; };
+		1E3B73D21E402A9A00B72613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3B73D01E402A9A00B72613 /* LaunchScreen.storyboard */; };
+		1E3B73DD1E402AA000B72613 /* PokeFinder__Udemy_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3B73DC1E402AA000B72613 /* PokeFinder__Udemy_Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E3B73D91E402AA000B72613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E3B73BC1E402A9500B72613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E3B73C31E402A9600B72613;
+			remoteInfo = "PokeFinder (Udemy)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E3B73C41E402A9600B72613 /* PokeFinder (Udemy).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PokeFinder (Udemy).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E3B73C71E402A9700B72613 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E3B73C91E402A9700B72613 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E3B73CC1E402A9900B72613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E3B73CE1E402A9A00B72613 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E3B73D11E402A9A00B72613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E3B73D31E402A9B00B72613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E3B73D81E402AA000B72613 /* PokeFinder (Udemy)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PokeFinder (Udemy)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E3B73DC1E402AA000B72613 /* PokeFinder__Udemy_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeFinder__Udemy_Tests.swift; sourceTree = "<group>"; };
+		1E3B73DE1E402AA000B72613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E3B73C11E402A9600B72613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E3B73D51E402AA000B72613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E3B73BB1E402A9400B72613 = {
+			isa = PBXGroup;
+			children = (
+				1E3B73C61E402A9600B72613 /* PokeFinder (Udemy) */,
+				1E3B73DB1E402AA000B72613 /* PokeFinder (Udemy)Tests */,
+				1E3B73C51E402A9600B72613 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E3B73C51E402A9600B72613 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E3B73C41E402A9600B72613 /* PokeFinder (Udemy).app */,
+				1E3B73D81E402AA000B72613 /* PokeFinder (Udemy)Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E3B73C61E402A9600B72613 /* PokeFinder (Udemy) */ = {
+			isa = PBXGroup;
+			children = (
+				1E3B73C71E402A9700B72613 /* AppDelegate.swift */,
+				1E3B73C91E402A9700B72613 /* ViewController.swift */,
+				1E3B73CB1E402A9900B72613 /* Main.storyboard */,
+				1E3B73CE1E402A9A00B72613 /* Assets.xcassets */,
+				1E3B73D01E402A9A00B72613 /* LaunchScreen.storyboard */,
+				1E3B73D31E402A9B00B72613 /* Info.plist */,
+			);
+			path = "PokeFinder (Udemy)";
+			sourceTree = "<group>";
+		};
+		1E3B73DB1E402AA000B72613 /* PokeFinder (Udemy)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1E3B73DC1E402AA000B72613 /* PokeFinder__Udemy_Tests.swift */,
+				1E3B73DE1E402AA000B72613 /* Info.plist */,
+			);
+			path = "PokeFinder (Udemy)Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E3B73C31E402A9600B72613 /* PokeFinder (Udemy) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E3B73E11E402AA000B72613 /* Build configuration list for PBXNativeTarget "PokeFinder (Udemy)" */;
+			buildPhases = (
+				1E3B73C01E402A9600B72613 /* Sources */,
+				1E3B73C11E402A9600B72613 /* Frameworks */,
+				1E3B73C21E402A9600B72613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PokeFinder (Udemy)";
+			productName = "PokeFinder (Udemy)";
+			productReference = 1E3B73C41E402A9600B72613 /* PokeFinder (Udemy).app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E3B73D71E402AA000B72613 /* PokeFinder (Udemy)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E3B73E41E402AA000B72613 /* Build configuration list for PBXNativeTarget "PokeFinder (Udemy)Tests" */;
+			buildPhases = (
+				1E3B73D41E402AA000B72613 /* Sources */,
+				1E3B73D51E402AA000B72613 /* Frameworks */,
+				1E3B73D61E402AA000B72613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E3B73DA1E402AA000B72613 /* PBXTargetDependency */,
+			);
+			name = "PokeFinder (Udemy)Tests";
+			productName = "PokeFinder (Udemy)Tests";
+			productReference = 1E3B73D81E402AA000B72613 /* PokeFinder (Udemy)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E3B73BC1E402A9500B72613 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mahmoud SMGL";
+				TargetAttributes = {
+					1E3B73C31E402A9600B72613 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5PD448JSVP;
+						ProvisioningStyle = Automatic;
+					};
+					1E3B73D71E402AA000B72613 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5PD448JSVP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1E3B73C31E402A9600B72613;
+					};
+				};
+			};
+			buildConfigurationList = 1E3B73BF1E402A9500B72613 /* Build configuration list for PBXProject "PokeFinder (Udemy)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E3B73BB1E402A9400B72613;
+			productRefGroup = 1E3B73C51E402A9600B72613 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E3B73C31E402A9600B72613 /* PokeFinder (Udemy) */,
+				1E3B73D71E402AA000B72613 /* PokeFinder (Udemy)Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E3B73C21E402A9600B72613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3B73D21E402A9A00B72613 /* LaunchScreen.storyboard in Resources */,
+				1E3B73CF1E402A9A00B72613 /* Assets.xcassets in Resources */,
+				1E3B73CD1E402A9900B72613 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E3B73D61E402AA000B72613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E3B73C01E402A9600B72613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3B73CA1E402A9700B72613 /* ViewController.swift in Sources */,
+				1E3B73C81E402A9700B72613 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E3B73D41E402AA000B72613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3B73DD1E402AA000B72613 /* PokeFinder__Udemy_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E3B73DA1E402AA000B72613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E3B73C31E402A9600B72613 /* PokeFinder (Udemy) */;
+			targetProxy = 1E3B73D91E402AA000B72613 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E3B73CB1E402A9900B72613 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E3B73CC1E402A9900B72613 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E3B73D01E402A9A00B72613 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E3B73D11E402A9A00B72613 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E3B73DF1E402AA000B72613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E3B73E01E402AA000B72613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E3B73E21E402AA000B72613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5PD448JSVP;
+				INFOPLIST_FILE = "PokeFinder (Udemy)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahmoud-SMGL.PokeFinder--Udemy-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1E3B73E31E402AA000B72613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5PD448JSVP;
+				INFOPLIST_FILE = "PokeFinder (Udemy)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahmoud-SMGL.PokeFinder--Udemy-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1E3B73E51E402AA000B72613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5PD448JSVP;
+				INFOPLIST_FILE = "PokeFinder (Udemy)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahmoud-SMGL.PokeFinder--Udemy-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeFinder (Udemy).app/PokeFinder (Udemy)";
+			};
+			name = Debug;
+		};
+		1E3B73E61E402AA000B72613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5PD448JSVP;
+				INFOPLIST_FILE = "PokeFinder (Udemy)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahmoud-SMGL.PokeFinder--Udemy-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeFinder (Udemy).app/PokeFinder (Udemy)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E3B73BF1E402A9500B72613 /* Build configuration list for PBXProject "PokeFinder (Udemy)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E3B73DF1E402AA000B72613 /* Debug */,
+				1E3B73E01E402AA000B72613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E3B73E11E402AA000B72613 /* Build configuration list for PBXNativeTarget "PokeFinder (Udemy)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E3B73E21E402AA000B72613 /* Debug */,
+				1E3B73E31E402AA000B72613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E3B73E41E402AA000B72613 /* Build configuration list for PBXNativeTarget "PokeFinder (Udemy)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E3B73E51E402AA000B72613 /* Debug */,
+				1E3B73E61E402AA000B72613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E3B73BC1E402A9500B72613 /* Project object */;
+}
